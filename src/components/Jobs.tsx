@@ -30,7 +30,7 @@ const JobPost = ({
   );
 };
 
-const Jobs: React.FC<null | [JobIntr]> = ({ jobs }) => {
+const Jobs: React.FC<null | [JobIntr]> = ({ jobs }: any) => {
   return (
     <div className="flex flex-col items-center mt-32">
       <h2 className="font-black font-nunito text-3xl mt-[10px]">
