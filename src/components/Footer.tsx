@@ -76,7 +76,7 @@ const Footer = () => {
             With a few clicks, you can integrate your preferred DevOps tools to
             enable Single Pane of Glass DevOps
           </p>
-          <div className="flex items-center gap-x-8 mt-10">
+          <div className="flex items-center gap-x-4 mt-10">
             <div className="bg-secondary3 md:flex hidden items-center justify-center text-sm font-semibold text-white rounded-[39px] max-w-[140px] px-[40px] py-[16px]">
               Google
             </div>
