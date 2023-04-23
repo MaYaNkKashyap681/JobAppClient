@@ -6,13 +6,6 @@ const JobPost = ({
   role,
   location,
   jobtype,
-  aboutdesc,
-  aboutPoints,
-  offersdesc,
-  offersPoints,
-  name,
-  email,
-  contact
 }: JobIntr) => {
   return (
     <div className="border-[1px] border-secondary4 px-[20px] py-[40px] cursor-pointer rounded-xl flex flex-col items-start justify-start group hover:bg-primary1 hover:border-transparent">
