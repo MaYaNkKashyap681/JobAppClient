@@ -1,12 +1,9 @@
 import { useState, useEffect } from "react";
-import { AboutLines, WeOffer } from "../constants/index";
 import { useLocation } from "react-router-dom";
-import styles from "../styles";
 import { JobIntr } from "../constants/index";
 import axios from "axios";
 
 const JobDetail = ({
-  _id,
   aboutdesc,
   aboutPoints,
   offersdesc,
